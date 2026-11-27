@@ -1,10 +1,10 @@
-# kalman
+# Kalman
 
 ## Compiling
 
 Run the following command from the project root to compile and run the program in linux:
 
-g++ -I deps/eigen -Wall src/filter/main.cpp src/filter/simulate.cpp -o simulator
+```g++ -I deps/eigen -Wall src/filter/main.cpp src/filter/simulate.cpp -o simulator```
 
 This will create an output binary 'simulator' which can be run using the command './simulator'
 In its current state, this will loop through 51 iterations of stepping through simulated measurement data, printing the noisy position measurement along with the "actual" values
